@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+   <!-- Site Header -->
+    <header class="site-header">
+      <div class="header-container">
+          <h1 class="site-title">Welcome to Our Site</h1>
+          <nav aria-label="Main Navigation">
+              <ul class="nav-list">
+                  <li><a href="#" aria-current="page">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+          <h1 class="hero-title">Welcome to Our Innovative Solutions</h1>
+          <p class="hero-subtitle">We provide cutting-edge solutions tailored to your needs.</p>
+          <div class="hero-buttons">
+              <a href="#" class="hero-button primary">Get Started</a>
+              <a href="#" class="hero-button secondary">Learn More</a>
+          </div>
+          <div class="hero-search">
+              <input type="text" placeholder="Search...">
+              <button aria-label="Search">Search</button>
+          </div>
+      </div>
+    </section>
+
+
+    <!-- Main Content -->
+    <main id="main-content" tabindex="-1">
+
+        <!-- Product Listing Section -->
+        <section class="product-listing">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <!-- Product Item Template -->
+                <article class="product-item" aria-label="Product 1">
+                    <div class="product-image">
+                        <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                            alt="Product 1 Image" class="responsive-image">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Product 1</h3>
+                        <p class="product-price">$19.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+                <article class="product-item" aria-label="Product 1">
+                  <div class="product-image">
+                      <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                          alt="Product 1 Image" class="responsive-image">
+                  </div>
+                  <div class="product-details">
+                      <h3 class="product-name">Product 1</h3>
+                      <p class="product-price">$19.99</p>
+                      <button class="add-to-cart">Add to Cart</button>
+                  </div>
+                </article>
+                <article class="product-item" aria-label="Product 1">
+                <div class="product-image">
+                    <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                        alt="Product 1 Image" class="responsive-image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Product 1</h3>
+                    <p class="product-price">$19.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+              </article>
+              <article class="product-item" aria-label="Product 1">
+                <div class="product-image">
+                    <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                        alt="Product 1 Image" class="responsive-image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Product 1</h3>
+                    <p class="product-price">$19.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+              </article>
+              <article class="product-item" aria-label="Product 1">
+              <div class="product-image">
+                  <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                      alt="Product 1 Image" class="responsive-image">
+              </div>
+              <div class="product-details">
+                  <h3 class="product-name">Product 1</h3>
+                  <p class="product-price">$19.99</p>
+                  <button class="add-to-cart">Add to Cart</button>
+              </div>
+              </article>
+              <article class="product-item" aria-label="Product 1">
+                <div class="product-image">
+                    <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                        alt="Product 1 Image" class="responsive-image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-name">Product 1</h3>
+                    <p class="product-price">$19.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </article>
+            <article class="product-item" aria-label="Product 1">
+              <div class="product-image">
+                  <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                      alt="Product 1 Image" class="responsive-image">
+              </div>
+              <div class="product-details">
+                  <h3 class="product-name">Product 1</h3>
+                  <p class="product-price">$19.99</p>
+                  <button class="add-to-cart">Add to Cart</button>
+              </div>
+          </article>
+          <article class="product-item" aria-label="Product 1">
+            <div class="product-image">
+                <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7"
+                    alt="Product 1 Image" class="responsive-image">
+            </div>
+            <div class="product-details">
+                <h3 class="product-name">Product 1</h3>
+                <p class="product-price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </article>
+            </div>
+        </section>
+
+        <!-- Featured Content Section -->
+        <section class="featured-content">
+            <h2 class="section-title">Featured Content</h2>
+            <div class="content-grid">
+                <!-- Featured Article -->
+                <article class="content-box" aria-label="Featured Article 1">
+                    <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7" alt="Featured Article 1 Image" class="featured-image">
+                    <div class="content-box-inner">
+                        <h3>Article Title 1</h3>
+                        <p>Short description of article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="content-box" aria-label="Featured Article 1">
+                  <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7" alt="Featured Article 1 Image" class="featured-image">
+                  <div class="content-box-inner">
+                      <h3>Article Title 1</h3>
+                      <p>Short description of article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="content-box" aria-label="Featured Article 1">
+                <img src="https://th.bing.com/th/id/OIP.H6HNT4-lW0vjiwNh5dgSZAHaE7?w=305&h=203&c=7&r=0&o=5&pid=1.7" alt="Featured Article 1 Image" class="featured-image">
+                <div class="content-box-inner">
+                    <h3>Article Title 1</h3>
+                    <p>Short description of article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about-us-section">
+          <div class="about-us-content">
+              <h2 class="section-title">About Us</h2>
+              <p class="intro-text">Welcome to our website! We are dedicated to providing you with high-quality content, helpful resources, and a seamless user experience.</p>
+              <p class="detailed-info">Our mission is to make information easily accessible and to deliver valuable insights in an engaging and user-friendly way. If you want to know more, check out our <a href="#" class="about-link">about page</a>.</p>
+          </div>
+        </section>
+    </main>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="contact-description">
+              We would love to hear from you! Whether you have a question or need assistance, feel free to contact us.
+          </p>
+
+          <!-- Contact Form -->
+          <form action="#" method="POST" class="contact-form">
+              <div class="form-group">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea id="message" name="message" class="form-input" rows="6" placeholder="Write your message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+              <h3>Our Office</h3>
+              <p>123 Main Street, City, Country</p>
+              <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+              <p>Phone: <a href="tel:+11234567890">+1 123 456 7890</a></p>
+          </div>
+      </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>About Us</h3>
+              <p>Your company description here. We provide excellent products and services.</p>
+          </div>
+          <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul class="footer-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div id="contact" class="footer-section">
+              <h3>Contact Info</h3>
+              <p>123 Main Street, City, Country</p>
+              <p>Email: info@example.com</p>
+              <p>Phone: +1 123 456 7890</p>
+          </div>
+          <div class="footer-section">
+              <h3>Follow Us</h3>
+              <ul class="social-links">
+                  <li><a href="#" aria-label="Facebook"><img src="assets/icons8-facebook-250.png" alt="Facebook">Facebook</a></li>
+                  <li><a href="#" aria-label="Twitter"><img src="assets/icons8-twitter-250.png" alt="Twitter">Twitter</a></li>
+                  <li><a href="#" aria-label="LinkedIn"><img src="assets/icons8-linkedin-250.png" alt="LinkedIn">LinkedIn</a></li>
+                  <li><a href="#" aria-label="Instagram"><img src="assets/icons8-insta-256.png" alt="Instagram">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 My Website. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+  
+
+</html>
