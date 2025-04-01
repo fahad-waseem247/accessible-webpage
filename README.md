@@ -1,5 +1,7 @@
 # My Website Project
 
+![accessible-webpage](Accessible-Webpage.png)
+
 This is a responsive and accessible website featuring a homepage with a hero section, product listings, an about us page, a contact form, and more.
 
 ## Features
